@@ -14,7 +14,7 @@ namespace SampleWebAPIPrj.Controllers
         [HttpGet]
         public IEnumerable<string> Get()
         {
-            return new string[] { "Data1", "Data2", "Data3" };
+            return new string[] { "Data1", "Data2", "Data3", "Data 4","Data 5" };
         }
     }
 }
