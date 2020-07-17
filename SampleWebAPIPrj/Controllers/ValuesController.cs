@@ -11,5 +11,10 @@ namespace SampleWebAPIPrj.Controllers
     [ApiController]
     public class ValuesController : ControllerBase
     {
+        [HttpGet]
+        public IEnumerable<string> Get()
+        {
+            return new string[] { "Data1", "Data2", "Data3" };
+        }
     }
 }
